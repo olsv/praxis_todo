@@ -17,6 +17,7 @@ Praxis::Application.instance.layout do
   map :app, 'app/' do
     map :models, 'models/**/*'
     map :controllers, '**/controllers/**/*'
+    map :controllers, '**/resources/**/*'
     map :responses, '**/responses/**/*'
   end
 end

@@ -12,4 +12,9 @@ Praxis::ApiDefinition.define do
       key "Authorization", String, regexp: /^.*Bearer /, required: true
     end
   end
+
+  info do
+    base_path '/api'
+  end
+
 end
